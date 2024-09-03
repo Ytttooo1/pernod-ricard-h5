@@ -1,0 +1,139 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://git.zhiytech.work/otype/mengniu-family-h5.git"
+	},
+	"pages": [
+		{
+			"path": "pages/home/loading",
+			"style": {
+				"navigationBarTitleText": "理性青年驾到「清醒驾驶」训练营",
+				"recordTitle":"加载页"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "理性青年驾到「清醒驾驶」训练营",
+				"recordTitle":"首页"
+			}
+		},
+		{
+			"path": "pages/certificate/index",
+			"style": {
+				"navigationBarTitleText": "证书",
+				"navigationStyle": "custom",
+				"recordTitle":"证书领取页",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/certificate/form",
+			"style": {
+				"navigationBarTitleText": "填写信息",
+				"recordTitle":"信息填写页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/question/result",
+			"style": {
+				"navigationBarTitleText": "",
+				"recordTitle":"答题结果页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/question/index",
+			"style": {
+				"navigationBarTitleText": "答题",
+				"recordTitle":"答题页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/training-camp/course",
+			"style": {
+				"navigationBarTitleText": "理性青年驾到「清醒驾驶」训练营",
+				"recordTitle":"学习详情页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/training-camp/index",
+			"style": {
+				"navigationBarTitleText": "理性青年驾到「清醒驾驶」训练营",
+				"recordTitle":"学习页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/wechat-demo",
+			"style": {
+				"navigationBarTitleText": "微信demo"
+			}
+		},
+		{
+			"path": "pages/draw/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"recordTitle":"抽奖页"
+			}
+		},
+		{
+			"path": "pages/test/index",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+			"path": "pages/share/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"recordTitle":"海报页",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"rpxCalcMaxDeviceWidth": 960,
+		"rpxCalcBaseDeviceWidth": 375,
+		"rpxCalcIncludeWidth": 768,
+		"app-plus": {
+			"titleNView": false
+		}
+	},
+	"uniIdRouter": {}
+}

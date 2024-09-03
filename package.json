@@ -1,0 +1,47 @@
+{
+	"dependencies": {
+		"@lucky-canvas/uni": "0.0.13",
+		"@lucky-canvas/vue": "^0.1.11",
+		"js-base64": "^3.7.5",
+		"js-pinyin": "^0.2.5",
+		"moment": "^2.30.1",
+		"qs": "^6.11.2",
+		"uview-ui": "^1.8.8",
+		"weixin-js-sdk": "^1.6.5"
+	},
+	"devDependencies": {
+		"copy-webpack-plugin": "^5.1.0",
+		"vconsole": "^3.15.1"
+	},
+	"uni-app": {
+		"scripts": {
+			"h5-dev": {
+				"title": "开发版H5",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"DEV-H5": true
+				}
+			},
+			"h5-test": {
+				"title": "测试版H5",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"TEST-H5": true
+				}
+			},
+			"h5-prod": {
+				"title": "正式版H5",
+				"env": {
+					"UNI_PLATFORM": "h5"
+				},
+				"define": {
+					"PROD-H5": true
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,976 @@
+[
+    {
+		"label":"China",
+		"value":"中国"
+    },
+	{
+		"label": "Russia",
+		"value": "俄罗斯",
+		"code": "+7"
+	},
+	{
+        "label": "Angola",
+        "value": "安哥拉",
+        "code": "+244"
+    },
+    {
+        "label": "Afghanistan",
+        "value": "阿富汗",
+        "code": "+93"
+    },
+    {
+        "label": "Alaska(U.S.A)",
+        "value": "阿拉斯加",
+        "code": "+1907"
+    },
+    {
+        "label": "Albania",
+        "value": "阿尔巴尼亚",
+        "code": "+355"
+    },
+    {
+        "label": "Algeria",
+        "value": "阿尔及利亚",
+        "code": "+213"
+    },
+    {
+        "label": "Andorra",
+        "value": "安道尔共和国",
+        "code": "+376"
+    },
+    {
+        "label": "Anguilla",
+        "value": "安圭拉岛",
+        "code": "+1254"
+    },
+    {
+        "label": "Antigua and Barbuda",
+        "value": "安提瓜和巴布达",
+        "code": "+1268"
+    },
+    {
+        "label": "Argentina",
+        "value": "阿根廷",
+        "code": "+54"
+    },
+    {
+        "label": "Armenia",
+        "value": "亚美尼亚",
+        "code": "+374"
+    },
+    {
+        "label": "Aruba",
+        "value": "阿鲁巴岛",
+        "code": "+297"
+    },
+    {
+        "label": "Ascension",
+        "value": "阿森松",
+        "code": "+247"
+    },
+    {
+        "label": "Australia",
+        "value": "澳大利亚",
+        "code": "+61"
+    },
+    {
+        "label": "Austria",
+        "value": "奥地利",
+        "code": "+43"
+    },
+    {
+        "label": "Azerbaijan",
+        "value": "阿塞拜疆",
+        "code": "+994"
+    },
+    {
+        "label": "Bahamas",
+        "value": "巴哈马",
+        "code": "+1242"
+    },
+    {
+        "label": "Bahrain",
+        "value": "巴林",
+        "code": "+973"
+    },
+    {
+        "label": "Bangladesh",
+        "value": "孟加拉国",
+        "code": "+880"
+    },
+    {
+        "label": "Barbados",
+        "value": "巴巴多斯",
+        "code": "+1246"
+    },
+    {
+        "label": "Belarus",
+        "value": "白俄罗斯",
+        "code": "+375"
+    },
+    {
+        "label": "Belgium",
+        "value": "比利时",
+        "code": "+32"
+    },
+    {
+        "label": "Belize",
+        "value": "伯利兹",
+        "code": "+501"
+    },
+    {
+        "label": "Benin",
+        "value": "贝宁",
+        "code": "+229"
+    },
+    {
+        "label": "Bermuda Is",
+        "value": "百慕大群岛",
+        "code": "+1441"
+    },
+    {
+        "label": "Bhutan",
+        "value": "不丹",
+        "code": "+975"
+    },
+    {
+        "label": "Bolivia",
+        "value": "玻利维亚",
+        "code": "+591"
+    },
+    {
+        "label": "Bosnia And Herzegovina",
+        "value": "波斯尼亚和黑塞哥维那",
+        "code": "+387"
+    },
+    {
+        "label": "Botswana",
+        "value": "博茨瓦纳",
+        "code": "+267"
+    },
+    {
+        "label": "Brazil",
+        "value": "巴西",
+        "code": "+55"
+    },
+    {
+        "label": "Brunei",
+        "value": "文莱",
+        "code": "+673"
+    },
+    {
+        "label": "Bulgaria",
+        "value": "保加利亚",
+        "code": "+359"
+    },
+    {
+        "label": "Burkina Faso",
+        "value": "布基纳法索",
+        "code": "+226"
+    },
+    {
+        "label": "Burma",
+        "value": "缅甸",
+        "code": "+95"
+    },
+    {
+        "label": "Burundi",
+        "value": "布隆迪",
+        "code": "+257"
+    },
+    {
+        "label": "Cameroon",
+        "value": "喀麦隆",
+        "code": "+237"
+    },
+    {
+        "label": "Canada",
+        "value": "加拿大",
+        "code": "+1"
+    },
+    {
+        "label": "Cape Verde",
+        "value": "佛得角",
+        "code": "+238"
+    },
+    {
+        "label": "Cayman Is",
+        "value": "开曼群岛",
+        "code": "+1345"
+    },
+    {
+        "label": "Central African Republic",
+        "value": "中非共和国",
+        "code": "+236"
+    },
+    {
+        "label": "Chad",
+        "value": "乍得",
+        "code": "+235"
+    },
+    {
+        "label": "Chile",
+        "value": "智利",
+        "code": "+56"
+    },
+    
+    {
+        "label": "Colombia",
+        "value": "哥伦比亚",
+        "code": "+57"
+    },
+    {
+        "label": "Congo",
+        "value": "刚果",
+        "code": "+242"
+    },
+    {
+        "label": "Cook Is",
+        "value": "库克群岛",
+        "code": "+682"
+    },
+    {
+        "label": "Costa Rica",
+        "value": "哥斯达黎加",
+        "code": "+506"
+    },
+    {
+        "label": "Cuba",
+        "value": "古巴",
+        "code": "+53"
+    },
+    {
+        "label": "Cyprus",
+        "value": "塞浦路斯",
+        "code": "+357"
+    },
+    {
+        "label": "Czech Republic",
+        "value": "捷克",
+        "code": "+420"
+    },
+    {
+        "label": "Republic of Croatia",
+        "value": "克罗地亚共和国",
+        "code": "+385"
+    },
+    {
+        "label": "Denmark",
+        "value": "丹麦",
+        "code": "+45"
+    },
+    {
+        "label": "Djibouti",
+        "value": "吉布提",
+        "code": "+253"
+    },
+    {
+        "label": "Dominica Rep",
+        "value": "多米尼加共和国",
+        "code": "+1890"
+    },
+    {
+        "label": "Ecuador",
+        "value": "厄瓜多尔",
+        "code": "+593"
+    },
+    {
+        "label": "Egypt",
+        "value": "埃及",
+        "code": "+20"
+    },
+    {
+        "label": "EI Salvador",
+        "value": "萨尔瓦多",
+        "code": "+503"
+    },
+    {
+        "label": "Estonia",
+        "value": "爱沙尼亚",
+        "code": "+372"
+    },
+    {
+        "label": "Ethiopia",
+        "value": "埃塞俄比亚",
+        "code": "+251"
+    },
+    {
+        "label": "Fiji",
+        "value": "斐济",
+        "code": "+679"
+    },
+    {
+        "label": "Finland",
+        "value": "芬兰",
+        "code": "+358"
+    },
+    {
+        "label": "France",
+        "value": "法国",
+        "code": "+33"
+    },
+    {
+        "label": "French Guiana",
+        "value": "法属圭亚那",
+        "code": "+594"
+    },
+    {
+        "label": "French Polynesia",
+        "value": "法属玻利尼西亚",
+        "code": "+689"
+    },
+    {
+        "label": "Gabon",
+        "value": "加蓬",
+        "code": "+241"
+    },
+    {
+        "label": "Gambia",
+        "value": "冈比亚",
+        "code": "+220"
+    },
+    {
+        "label": "Georgia",
+        "value": "格鲁吉亚",
+        "code": "+995"
+    },
+    {
+        "label": "Germany",
+        "value": "德国",
+        "code": "+49"
+    },
+    {
+        "label": "Ghana",
+        "value": "加纳",
+        "code": "+233"
+    },
+    {
+        "label": "Gibraltar",
+        "value": "直布罗陀",
+        "code": "+350"
+    },
+    {
+        "label": "Greece",
+        "value": "希腊",
+        "code": "+30"
+    },
+    {
+        "label": "Grenada",
+        "value": "格林纳达",
+        "code": "+1809"
+    },
+    {
+        "label": "Guam",
+        "value": "关岛",
+        "code": "+1671"
+    },
+    {
+        "label": "Guatemala",
+        "value": "危地马拉",
+        "code": "+502"
+    },
+    {
+        "label": "Guinea",
+        "value": "几内亚",
+        "code": "+224"
+    },
+    {
+        "label": "Guyana",
+        "value": "圭亚那",
+        "code": "+592"
+    },
+    {
+        "label": "Haiti",
+        "value": "海地",
+        "code": "+509"
+    },
+    {
+        "label": "Honduras",
+        "value": "洪都拉斯",
+        "code": "+504"
+    },
+    {
+        "label": "Hungary",
+        "value": "匈牙利",
+        "code": "+36"
+    },
+    {
+        "label": "Iceland",
+        "value": "冰岛",
+        "code": "+354"
+    },
+    {
+        "label": "India",
+        "value": "印度",
+        "code": "+91"
+    },
+    {
+        "label": "Indonesia",
+        "value": "印度尼西亚",
+        "code": "+62"
+    },
+    {
+        "label": "Iran",
+        "value": "伊朗",
+        "code": "+98"
+    },
+    {
+        "label": "Iraq",
+        "value": "伊拉克",
+        "code": "+964"
+    },
+    {
+        "label": "Ireland",
+        "value": "爱尔兰",
+        "code": "+353"
+    },
+    {
+        "label": "Israel",
+        "value": "以色列",
+        "code": "+972"
+    },
+    {
+        "label": "Italy",
+        "value": "意大利",
+        "code": "+39"
+    },
+    {
+        "label": "Ivory Coast",
+        "value": "科特迪瓦",
+        "code": "+225"
+    },
+    {
+        "label": "Jamaica",
+        "value": "牙买加",
+        "code": "+1876"
+    },
+    {
+        "label": "Japan",
+        "value": "日本",
+        "code": "+81"
+    },
+    {
+        "label": "Jordan",
+        "value": "约旦",
+        "code": "+962"
+    },
+    {
+        "label": "Cambodia",
+        "value": "柬埔寨",
+        "code": "+855"
+    },
+    {
+        "label": "Kazakhstan",
+        "value": "哈萨克斯坦",
+        "code": "+7"
+    },
+    {
+        "label": "Kenya",
+        "value": "肯尼亚",
+        "code": "+254"
+    },
+    {
+        "label": "Korea",
+        "value": "韩国",
+        "code": "+82"
+    },
+    {
+        "label": "Kuwait",
+        "value": "科威特",
+        "code": "+965"
+    },
+    {
+        "label": "Kyrgyzstan",
+        "value": "吉尔吉斯坦",
+        "code": "+331"
+    },
+    {
+        "label": "Laos",
+        "value": "老挝",
+        "code": "+856"
+    },
+    {
+        "label": "Latvia",
+        "value": "拉脱维亚",
+        "code": "+371"
+    },
+    {
+        "label": "Lebanon",
+        "value": "黎巴嫩",
+        "code": "+961"
+    },
+    {
+        "label": "Lesotho",
+        "value": "莱索托",
+        "code": "+266"
+    },
+    {
+        "label": "Liberia",
+        "value": "利比里亚",
+        "code": "+231"
+    },
+    {
+        "label": "Libya",
+        "value": "利比亚",
+        "code": "+218"
+    },
+    {
+        "label": "Liechtenstein",
+        "value": "列支敦士登",
+        "code": "+423"
+    },
+    {
+        "label": "Lithuania",
+        "value": "立陶宛",
+        "code": "+370"
+    },
+    {
+        "label": "Luxembourg",
+        "value": "卢森堡",
+        "code": "+352"
+    },
+    {
+        "label": "Madagascar",
+        "value": "马达加斯加",
+        "code": "+261"
+    },
+    {
+        "label": "Malawi",
+        "value": "马拉维",
+        "code": "+265"
+    },
+    {
+        "label": "Malaysia",
+        "value": "马来西亚",
+        "code": "+60"
+    },
+    {
+        "label": "Maldives",
+        "value": "马尔代夫",
+        "code": "+960"
+    },
+    {
+        "label": "Mali",
+        "value": "马里",
+        "code": "+223"
+    },
+    {
+        "label": "Malta",
+        "value": "马耳他",
+        "code": "+356"
+    },
+    {
+        "label": "Mariana Is",
+        "value": "马里亚那群岛",
+        "code": "+1670"
+    },
+    {
+        "label": "Martinique",
+        "value": "马提尼克",
+        "code": "+596"
+    },
+    {
+        "label": "Mauritius",
+        "value": "毛里求斯",
+        "code": "+230"
+    },
+    {
+        "label": "Mexico",
+        "value": "墨西哥",
+        "code": "+52"
+    },
+    {
+        "label": "Moldova",
+        "value": "摩尔多瓦",
+        "code": "+373"
+    },
+    {
+        "label": "Monaco",
+        "value": "摩纳哥",
+        "code": "+377"
+    },
+    {
+        "label": "Mongolia",
+        "value": "蒙古",
+        "code": "+976"
+    },
+    {
+        "label": "Montserrat Is",
+        "value": "蒙特塞拉特岛",
+        "code": "+1664"
+    },
+    {
+        "label": "Morocco",
+        "value": "摩洛哥",
+        "code": "+212"
+    },
+    {
+        "label": "Mozambique",
+        "value": "莫桑比克",
+        "code": "+258"
+    },
+    {
+        "label": "Namibia",
+        "value": "纳米比亚",
+        "code": "+264"
+    },
+    {
+        "label": "Nauru",
+        "value": "瑙鲁",
+        "code": "+674"
+    },
+    {
+        "label": "Nepal",
+        "value": "尼泊尔",
+        "code": "+977"
+    },
+    {
+        "label": "Netheriands Antilles",
+        "value": "荷属安的列斯",
+        "code": "+599"
+    },
+    {
+        "label": "Netherlands",
+        "value": "荷兰",
+        "code": "+31"
+    },
+    {
+        "label": "New Zealand",
+        "value": "新西兰",
+        "code": "+64"
+    },
+    {
+        "label": "Nicaragua",
+        "value": "尼加拉瓜",
+        "code": "+505"
+    },
+    {
+        "label": "Niger",
+        "value": "尼日尔",
+        "code": "+227"
+    },
+    {
+        "label": "Nigeria",
+        "value": "尼日利亚",
+        "code": "+234"
+    },
+    {
+        "label": "North Korea",
+        "value": "朝鲜",
+        "code": "+850"
+    },
+    {
+        "label": "Norway",
+        "value": "挪威",
+        "code": "+47"
+    },
+    {
+        "label": "Oman",
+        "value": "阿曼",
+        "code": "+968"
+    },
+    {
+        "label": "Pakistan",
+        "value": "巴基斯坦",
+        "code": "+92"
+    },
+    {
+        "label": "Panama",
+        "value": "巴拿马",
+        "code": "+507"
+    },
+    {
+        "label": "Papua New Cuinea",
+        "value": "巴布亚新几内亚",
+        "code": "+675"
+    },
+    {
+        "label": "Paraguay",
+        "value": "巴拉圭",
+        "code": "+595"
+    },
+    {
+        "label": "Peru",
+        "value": "秘鲁",
+        "code": "+51"
+    },
+    {
+        "label": "Philippines",
+        "value": "菲律宾",
+        "code": "+63"
+    },
+    {
+        "label": "Poland",
+        "value": "波兰",
+        "code": "+48"
+    },
+    {
+        "label": "Portugal",
+        "value": "葡萄牙",
+        "code": "+351"
+    },
+    {
+        "label": "Puerto Rico",
+        "value": "波多黎各",
+        "code": "+1787"
+    },
+    {
+        "label": "Qatar",
+        "value": "卡塔尔",
+        "code": "+974"
+    },
+    {
+        "label": "Reunion",
+        "value": "留尼旺",
+        "code": "+262"
+    },
+    {
+        "label": "Romania",
+        "value": "罗马尼亚",
+        "code": "+40"
+    },
+    
+    {
+        "label": "Saint Vincent",
+        "value": "圣文森特岛",
+        "code": "+1784"
+    },
+    {
+        "label": "Samoa Eastern",
+        "value": "东萨摩亚(美)",
+        "code": "+684"
+    },
+    {
+        "label": "Samoa Western",
+        "value": "西萨摩亚",
+        "code": "+685"
+    },
+    {
+        "label": "San Marino",
+        "value": "圣马力诺",
+        "code": "+378"
+    },
+    {
+        "label": "Sao Tome and Principe",
+        "value": "圣多美和普林西比",
+        "code": "+239"
+    },
+    {
+        "label": "Saudi Arabia",
+        "value": "沙特阿拉伯",
+        "code": "+966"
+    },
+    {
+        "label": "Senegal",
+        "value": "塞内加尔",
+        "code": "+221"
+    },
+    {
+        "label": "Seychelles",
+        "value": "塞舌尔",
+        "code": "+248"
+    },
+    {
+        "label": "Sierra Leone",
+        "value": "塞拉利昂",
+        "code": "+232"
+    },
+    {
+        "label": "Singapore",
+        "value": "新加坡",
+        "code": "+65"
+    },
+    {
+        "label": "Slovakia",
+        "value": "斯洛伐克",
+        "code": "+421"
+    },
+    {
+        "label": "Slovenia",
+        "value": "斯洛文尼亚",
+        "code": "+386"
+    },
+    {
+        "label": "Solomon Is",
+        "value": "所罗门群岛",
+        "code": "+677"
+    },
+    {
+        "label": "Somali",
+        "value": "索马里",
+        "code": "+252"
+    },
+    {
+        "label": "South Africa",
+        "value": "南非",
+        "code": "+27"
+    },
+    {
+        "label": "Spain",
+        "value": "西班牙",
+        "code": "+34"
+    },
+    {
+        "label": "SriLanka",
+        "value": "斯里兰卡",
+        "code": "+94"
+    },
+    {
+        "label": "Saint Lucia",
+        "value": "圣卢西亚",
+        "code": "+1758"
+    },
+    {
+        "label": "St.Vincent",
+        "value": "圣文森特",
+        "code": "+1784"
+    },
+    {
+        "label": "Sudan",
+        "value": "苏丹",
+        "code": "+249"
+    },
+    {
+        "label": "Suriname",
+        "value": "苏里南",
+        "code": "+597"
+    },
+    {
+        "label": "Swaziland",
+        "value": "斯威士兰",
+        "code": "+268"
+    },
+    {
+        "label": "Sweden",
+        "value": "瑞典",
+        "code": "+46"
+    },
+    {
+        "label": "Switzerland",
+        "value": "瑞士",
+        "code": "+41"
+    },
+    {
+        "label": "Syria",
+        "value": "叙利亚",
+        "code": "+963"
+    },
+    {
+        "label": "Tajikstan",
+        "value": "塔吉克斯坦",
+        "code": "+992"
+    },
+    {
+        "label": "Tanzania",
+        "value": "坦桑尼亚",
+        "code": "+255"
+    },
+    {
+        "label": "Thailand",
+        "value": "泰国",
+        "code": "+66"
+    },
+    {
+        "label": "Togo",
+        "value": "多哥",
+        "code": "+228"
+    },
+    {
+        "label": "Tonga",
+        "value": "汤加",
+        "code": "+676"
+    },
+    {
+        "label": "Trinidad and Tobago",
+        "value": "特立尼达和多巴哥",
+        "code": "+1809"
+    },
+    {
+        "label": "Tunisia",
+        "value": "突尼斯",
+        "code": "+216"
+    },
+    {
+        "label": "Turkey",
+        "value": "土耳其",
+        "code": "+90"
+    },
+    {
+        "label": "Turkmenistan",
+        "value": "土库曼斯坦",
+        "code": "+993"
+    },
+    {
+        "label": "Uganda",
+        "value": "乌干达",
+        "code": "+256"
+    },
+    {
+        "label": "Ukraine",
+        "value": "乌克兰",
+        "code": "+380"
+    },
+    {
+        "label": "United Arab Emirates",
+        "value": "阿拉伯联合酋长国",
+        "code": "+971"
+    },
+    
+    {
+        "label": "Uruguay",
+        "value": "乌拉圭",
+        "code": "+598"
+    },
+    {
+        "label": "Uzbekistan",
+        "value": "乌兹别克斯坦",
+        "code": "+233"
+    },
+	{
+	    "label": "United Kiongdom",
+	    "value": "英国",
+	    "code": "+44"
+	},
+	{
+	    "label": "United States of America",
+	    "value": "美国",
+	    "code": "+1"
+	},
+    {
+        "label": "Venezuela",
+        "value": "委内瑞拉",
+        "code": "+58"
+    },
+    {
+        "label": "Vietnam",
+        "value": "越南",
+        "code": "+84"
+    },
+    {
+        "label": "Yemen",
+        "value": "也门",
+        "code": "+967"
+    },
+    {
+        "label": "Yugoslavia",
+        "value": "南斯拉夫",
+        "code": "+381"
+    },
+    {
+        "label": "Zimbabwe",
+        "value": "津巴布韦",
+        "code": "+263"
+    },
+    {
+        "label": "Zaire",
+        "value": "扎伊尔",
+        "code": "+243"
+    },
+    {
+        "label": "Zambia",
+        "value": "赞比亚",
+        "code": "+260"
+    }
+	
+	
+]
