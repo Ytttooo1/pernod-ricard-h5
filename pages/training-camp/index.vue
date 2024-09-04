@@ -217,11 +217,11 @@ export default {
 			// }
 		},
         handleGoCourse(index) {
-            if (this.activityInfo.sceneList && this.activityInfo.sceneList.length > 0) {
-                uni.redirectTo({
-                    url: `/pages/training-camp/course?index=${index}&activitySceneId=${this.activityInfo.sceneList[index].id}&openId=${this.openId}`
-                });
-            }
+            // if (this.activityInfo.sceneList && this.activityInfo.sceneList.length > 0) {
+            // }
+            uni.redirectTo({
+                url: `/pages/training-camp/course?index=${index}`
+            });
         },
         handleQuestion() {
             uni.redirectTo({

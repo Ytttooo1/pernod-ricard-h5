@@ -110,6 +110,7 @@ export default {
             immediate: true,
             deep: true,
             handler(newVal, oldVal) {
+                return
                 this.$nextTick(() => {
                     // oldVal 存在的话代表页面已经跳转过
                     if (oldVal) {

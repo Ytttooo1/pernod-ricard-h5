@@ -270,9 +270,8 @@
 			this.$refs['music-main'].stop();
 		},
 		onLoad(option) {
-			this.curCourse = option.index
 			this.curDialogUrl = `${this.staticUrl}/images/training-camp/img-dialog-${parseInt(this.curCourse)+1}.png`
-
+			this.curCourse = option.index
 			//第一次进入弹窗
 			if (!uni.getStorageSync(`dialog-course${this.curCourse}`)) {
 				this.showDialog = true
@@ -283,7 +282,7 @@
 
 			this.activitySceneId = option.activitySceneId
 			//this.openId = option.openId
-			wechatUtil.shareHome();
+			//wechatUtil.shareHome();
 			this.openId = uni.getStorageSync("openId")
 			if (!this.openId) {
 				wechatUtil.auth(option).then((res) => {
@@ -317,7 +316,6 @@
 			this.$refs['music-main'].initMusic(this.musicList[this.curCourse])
 			this.$nextTick(() => {
 				this.scrollToLeft = ((window.innerWidth / 750) * 2760 - window.innerHeight) / 2
-				console.log("this.curCourse", this.curCourse)
 				if (this.curCourse == 0) {
 					this.scrollToLeft = this.scrollToLeft + 35
 				} else if (this.curCourse == 1) {
@@ -325,7 +323,6 @@
 				} else if (this.curCourse == 2) {
 					this.scrollToLeft = this.scrollToLeft - 70
 				}
-				console.log("this.scrollToLeft", this.scrollToLeft)
 			})
 		},
 		watch: {
@@ -333,8 +330,8 @@
 				if (!e) {
 					this.moveClass = "move"
 					document.body.addEventListener('touchmove', this.eventListenerHandle, {
-            passive: false
-        	});
+            			passive: false
+        			});
 					setTimeout(() => {
 						this.moveClass = ""
 						document.body.removeEventListener('touchmove', this.eventListenerHandle, {
@@ -449,13 +446,11 @@
 
 				// 重置弹窗滚动回到顶部
 				this.scrollTop = this.oldScrollTop
-				console.log(this.scrollTop)
 				this.$nextTick(function() {
 					this.scrollTop = 0
 				});
 
 				this.curPopIndex = index
-				console.log(index, 2222222)
 				if ([1, 4, 5, 6, 8, 9, 11, 12, 15, 18, 19].includes(index)) {
 					this.popEnd = false;
 					this.showHotPop = true
@@ -465,8 +460,6 @@
 				if (![5, 6, 11, 15, 18, 19].includes(index)) {
 					this.popEnd = true;
 				}
-				console.log("this.popEnd", this.popEnd)
-
 				if ([2, 3, 13, 16, 17].includes(index)) {
 					this.showHotPop = true
 					this.isPopBg = false

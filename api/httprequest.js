@@ -32,10 +32,10 @@ const get = (url, params) => {
 		url.indexOf('/member/learning/submit') == -1 &&
 		url.indexOf('/member/learning/process') == -1
 	) { // 将此类接口不显示加载中loading
-		uni.showLoading({
-			title: "加载中...",
-			mask: true,
-		});
+		// uni.showLoading({
+		// 	title: "加载中...",
+		// 	mask: true,
+		// });
 	}
 	return new Promise((resolve, reject) => {
 		uni.request({
@@ -73,10 +73,10 @@ const post = (url, params) => {
 		url.indexOf('/member/training/lottery') == -1 &&
 		url.indexOf('/member/learning/submit') == -1
 	) { // 将此类接口不显示加载中loading
-		uni.showLoading({
-			title: "加载中...",
-			mask: true,
-		});
+		// uni.showLoading({
+		// 	title: "加载中...",
+		// 	mask: true,
+		// });
 	}
 	return new Promise((resolve, reject) => {
 		uni.request({

@@ -641,7 +641,7 @@ export default {
         var sourceChannel = option.sourceChannel || option.state || "default";
         this.briefIntroduction = this.briefIntroduction.replace(/\n/g, "<br>")
         uni.setStorageSync("sourceChannel", sourceChannel)
-        wechatUtil.shareHome()
+      //  wechatUtil.shareHome()
     },
     onUnload() {
         this.$refs['music-main'].disconnect();
@@ -654,10 +654,10 @@ export default {
             this.init()
         } else {
             this.init()
-            wechatUtil.register(this.option).then((res) => {
-                this.openId = res;
-                this.init()
-            })
+            // wechatUtil.register(this.option).then((res) => {
+            //     this.openId = res;
+            //     this.init()
+            // })
         }
 
         if (this.$refs['music-main']) {
@@ -780,6 +780,8 @@ export default {
             this.pageStatus = 5
         },
         init() {
+            this.activityStart()
+            return
             getActivityInfo({
                 code: 'driving-training-2024'
             }).then((res) => {
